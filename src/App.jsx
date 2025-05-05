@@ -6,10 +6,10 @@ function App() {
   const [displayedAnswer, setDisplayedAnswer] = useState(null);
 
   function handleExpand(questionId) {
-    if (questionId === displayedAnswer) {
-      setDisplayedAnswer(null);
+    if (questionId == displayedAnswer) {
+      setDisplayedAnswer(null)
     } else {
-      setDisplayedAnswer(questionId);  
+      setDisplayedAnswer(questionId)
     } 
   }
 
@@ -22,7 +22,10 @@ function App() {
               <p>{item.title}</p>
               <button onClick={() => handleExpand(item.id)}>+</button>
             </div>
-            <p>{item.info}</p>
+            { item.id == displayedAnswer ? 
+              <p>{item.info}</p> 
+              : null 
+            }
           </div>
         )}
     </div>
