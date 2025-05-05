@@ -20,7 +20,10 @@ function App() {
           <div key={item.id}>
             <div className="question-section">
               <p>{item.title}</p>
-              <button onClick={() => handleExpand(item.id)}>+</button>
+              <button 
+                onClick={() => handleExpand(item.id)}>
+                  { item.id == displayedAnswer ? '-' : '+' }
+              </button>
             </div>
             { item.id == displayedAnswer ? 
               <p>{item.info}</p> 
