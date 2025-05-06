@@ -1,5 +1,19 @@
+body {
+  background-color: rgb(90, 8, 116);
+}
+
 .accordian {
   display: flex;
+  background-color: white;
+  border-radius: 5px;
+  width: 600px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin: 100px auto;
+}
+
+.accordian h2 {
+  width: 200px;
 }
 
 .question-section {

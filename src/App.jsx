@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="accordian">
       <h2>Questions and answers about login</h2>
-      <div>
+      <div className="q-and-a-section">
         {data.map((item) => 
           <div key={item.id}>
             <div className="question-section">
