@@ -15,9 +15,13 @@ body {
 }
 
 .accordian h2 {
-  width: 200px;
+  width: 150px;
+  font-size: 20px;
+  margin-right: 80px;
 }
 
 .question-section {
   display: flex;
+  font-size: 12px;
+  font-weight: bold;
 }
