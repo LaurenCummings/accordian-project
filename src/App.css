@@ -43,8 +43,13 @@ body {
   right: -5px;
   top: 10px;
   font-size: 12px;
-  text-align: center;
   vertical-align: middle;
+}
+
+.icon {
+  position: absolute;
+  top: 4px;
+  right: 3.5px;
 }
 
 .answer-section {

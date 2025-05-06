@@ -24,7 +24,9 @@ function App() {
               <p>{item.title}</p>
               <button 
                 onClick={() => handleExpand(item.id)}>
-                  { item.id == displayedAnswer ? <FaMinus /> : <FaPlus /> }
+                  { item.id == displayedAnswer 
+                    ? <FaMinus className="icon" /> 
+                    : <FaPlus className="icon" /> }
               </button>
             </div>
             <div className="answer-section">
