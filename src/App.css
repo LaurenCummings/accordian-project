@@ -28,6 +28,7 @@ body {
   display: flex;
   font-size: 12px;
   font-weight: bold;
+  position: relative;
 }
 
 .question-section button {
@@ -37,6 +38,10 @@ body {
   background-color: rgb(209, 207, 207);
   border: none;
   color: rgb(238, 99, 196);
+  cursor: pointer;
+  position: absolute;
+  right: -5px;
+  top: 10px;
 }
 
 .answer-section {
