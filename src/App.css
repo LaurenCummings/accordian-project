@@ -24,6 +24,16 @@ body {
   width: 300px;
 }
 
+.active {
+  box-shadow: 0px 5px 5px rgb(202, 202, 202), 
+    -1px 5px 5px rgb(202, 202, 202), 1px 5px 5px rgb(202, 202, 202);
+  -webkit-box-shadow: 0px 5px 5px rgb(202, 202, 202), 
+    -1px 5px 5px rgb(202, 202, 202), 1px 5px 5px rgb(202, 202, 202);
+  padding: 15px;
+  box-sizing: border-box;
+  width: 315px;
+}
+
 .question-section {
   display: flex;
   font-size: 12px;
