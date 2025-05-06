@@ -1,6 +1,7 @@
 import './App.css'
 import { useState } from 'react';
 import data from './data';
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 function App() {
   const [displayedAnswer, setDisplayedAnswer] = useState(null);
@@ -23,7 +24,7 @@ function App() {
               <p>{item.title}</p>
               <button 
                 onClick={() => handleExpand(item.id)}>
-                  { item.id == displayedAnswer ? '-' : '+' }
+                  { item.id == displayedAnswer ? <FaMinus /> : <FaPlus /> }
               </button>
             </div>
             <div className="answer-section">
