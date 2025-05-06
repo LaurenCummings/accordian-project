@@ -20,6 +20,10 @@ body {
   margin-right: 80px;
 }
 
+.q-and-a-section {
+  width: 300px;
+}
+
 .question-section {
   display: flex;
   font-size: 12px;
