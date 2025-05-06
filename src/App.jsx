@@ -26,10 +26,12 @@ function App() {
                   { item.id == displayedAnswer ? '-' : '+' }
               </button>
             </div>
-            { item.id == displayedAnswer ? 
-              <p>{item.info}</p> 
-              : null 
-            }
+            <div className="answer-section">
+              { item.id == displayedAnswer ? 
+                <p>{item.info}</p> 
+                : null 
+              }
+            </div>
           </div>
         )}
       </div>
