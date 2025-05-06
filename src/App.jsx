@@ -14,8 +14,9 @@ function App() {
   }
 
   return (
-    <div>
-      <h2>Questions and Answers About Login</h2>
+    <div className="accordian">
+      <h2>Questions and answers about login</h2>
+      <div>
         {data.map((item) => 
           <div key={item.id}>
             <div className="question-section">
@@ -31,6 +32,7 @@ function App() {
             }
           </div>
         )}
+      </div>
     </div>
   )
 }

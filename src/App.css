@@ -1,3 +1,7 @@
+.accordian {
+  display: flex;
+}
+
 .question-section {
   display: flex;
 }
