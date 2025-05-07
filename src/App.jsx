@@ -22,8 +22,8 @@ function App() {
         <h2>Questions and answers about login</h2>
         <div className="q-and-a-section">
           {data.map((item) => 
-            <div className={item.id === displayedAnswer ? 'active' : 'inactive'}>
-              <div key={item.id}>
+            <div key={item.id} className={item.id === displayedAnswer ? 'active' : 'inactive'}>
+              <div>
                 <div className="question-section">
                   <p>{item.title}</p>
                   <button 
