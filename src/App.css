@@ -9,12 +9,13 @@ body {
 }
 
 .square {
-  position: absolute;
+  position: relative;
   background-color: rgb(238, 99, 196);
   width: 100px;
   height: 100px;
-  top: -40px;
-  left: 120px;
+  margin: 0 auto;
+  top: 90px;
+  left: -290px;
   z-index: -2;
 }
 
@@ -25,7 +26,7 @@ body {
   width: 600px;
   padding: 40px;
   box-sizing: border-box;
-  margin: 100px auto;
+  margin: 30px auto;
 }
 
 .accordian h2 {
