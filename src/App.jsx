@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="container">
       <div className="square"></div>
+      <div className="corner"></div>
       <div className="accordian">
         <h2>Questions and answers about login</h2>
         <div className="q-and-a-section">
